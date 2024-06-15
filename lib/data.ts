@@ -62,24 +62,24 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Grocery Store",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "I have made this grocery store as my college assignment where I created both frontEnd and backEnd of the website using PHP. Admin panel and Customer Dashboard is created and the Data are stored and retrieved to/from MySQL Database",
+    tags: ["PHP", "MySQL", "HTML", "CSS", "JS"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Apple Fruit Diesease Classification System",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "This system utizes Machine Learning to classify the various disease in apple fruits. Python and Flask Web framework is used in this project.",
+    tags: ["Python", "Flask", "Machine Learning", "KNN"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Ticket Booking System",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "I have created a Ticket Booking System of Cricket Match using Java. Swing library is utilized for creating GUI and MySQL database is used to store and fetch data.",
+    tags: ["Java", "Swing", "MySQL", "PHPmyadmin", "Framer"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
